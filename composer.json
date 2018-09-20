@@ -1,0 +1,19 @@
+{
+    "name": "scy/php-nmea",
+    "description": "Parses NMEA into PHP7 objects.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tim Weber",
+            "email": "scy@scy.name"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "scy\\NMEA\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7"
+    }
+}
